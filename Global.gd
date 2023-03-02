@@ -6,7 +6,7 @@ var fade_speed = 0.015
 var fade_in = false
 var fade_out = ""
 
-var death_zone = 1000
+var death_zone = 99999999999999
 
 func _physics_process(_delta):
 	if fade == null:

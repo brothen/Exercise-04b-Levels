@@ -32,7 +32,7 @@ func _physics_process(_delta):
 	if direction < 0 and not $AnimatedSprite.flip_h: $AnimatedSprite.flip_h = true
 	if direction > 0 and $AnimatedSprite.flip_h: $AnimatedSprite.flip_h = false
 	
-	if position.y > Global.death_zone:
+	if position.y > 5000:
 		queue_free()
 		
 
